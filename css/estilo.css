@@ -17,12 +17,6 @@ header{
    display: flex;
    justify-content: space-between;
    border-bottom: var(--primary);
-
-
-}
-main.index section{
-   display: grid;
-   grid-template-columns: auto auto auto auto auto;
 }
 header img {
    padding: 0.3rem;
@@ -37,7 +31,11 @@ header nav a {
    color: var(--third);
 }
 header nav a:hover {
-   font-weight: bold;
+   font-weight: inter;
+}
+main.index section{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
 }
 footer {
    height: 3.5rem;
@@ -49,7 +47,7 @@ footer image {
    margin: 0 0.5rem;
 }
 main {
-   height: calc(100 - 8.5rem);
+   height: calc(100vh - 8.5rem);
 }
 /* Index*/
 main.index section img {
@@ -57,4 +55,25 @@ main.index section img {
 }
 main.index section img {
    height: 100%;
+}
+/* Comentário*/
+main.comentario {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   justify-content: space-around;
+   align-content: baseline;
+}
+main.comentario section {
+   background-color: var(--secundary);
+   padding: 0.5rem;
+   margin: 0.5rem;
+   border-radius: 0.5rem;
+   min-width: 12rem;
+}
+main.comentario section aside {
+   display: flex;
+}
+main.comentario aside p {
+   font-size: 0.8rem;
+   margin-left: 0.5rem;
 }
