@@ -39,3 +39,22 @@ header nav a {
 header nav a:hover {
    font-weight: bold;
 }
+footer {
+   height: 3.5rem;
+   display: flex;
+   align-items: center;
+   background-color: var(--tertiary);
+}
+footer image {
+   margin: 0 0.5rem;
+}
+main {
+   height: calc(100 - 8.5rem);
+}
+/* Index*/
+main.index section img {
+   display: flex;
+}
+main.index section img {
+   height: 100%;
+}
