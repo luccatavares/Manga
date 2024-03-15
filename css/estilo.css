@@ -16,7 +16,10 @@
 header{
    display: flex;
    justify-content: space-between;
-   border-bottom: var(--primary);
+   border-bottom: var(--secundary);
+   border-bottom-width: 0.5rem;
+   border-bottom-style: solid;
+   height: 5rem;
 }
 header img {
    padding: 0.3rem;
