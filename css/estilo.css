@@ -17,7 +17,7 @@ header{
    display: flex;
    justify-content: space-between;
    border-bottom: var(--secundary);
-   border-bottom-width: 0.5rem;
+   border-bottom-width: 0.3rem;
    border-bottom-style: solid;
    height: 5rem;
 }
@@ -50,7 +50,12 @@ footer image {
    margin: 0 0.5rem;
 }
 main {
-   height: calc(100vh - 8.5rem);
+   min-height: calc(100vh - 8.5rem);
+}
+main button {
+   background-color: var(--black);
+   color: var(--white);
+
 }
 /* Index*/
 main.index section img {
