@@ -67,7 +67,8 @@ main.index section img {
 /* Comentário*/
 main.comentario {
    display: grid;
-   grid-template-columns: auto auto auto auto auto;
+   grid-template-columns: auto auto auto auto;
+   gap: 0.5rem;
    justify-content: space-around;
    align-content: baseline;
 }
